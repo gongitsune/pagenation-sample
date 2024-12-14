@@ -1,0 +1,16 @@
+[project]
+name = "pagenation-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.6",
+    "sqlalchemy>=2.0.36",
+    "sqlmodel>=0.0.22",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.3",
+]
